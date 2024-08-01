@@ -3,7 +3,7 @@
 /node_modules
 /build
 
-./prisma/dev.db
+# ./prisma/dev.db
 
 # Logs
 logs
