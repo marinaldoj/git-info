@@ -19,33 +19,25 @@ Primeiro abra o terminal para executar os codigos a seguir.
 
 **Criando a pasta do projeto.**
 ```sh
-git clone https://github.com/marinaldoj/pexels-exerc.git
+$ git clone https://github.com/marinaldoj/git-info.git
 ```
 
 **Backend**
 ```sh
-cd pexels-exerc
-cd backend
-composer install
-cp .env.example .env
-```
-Abra seu editor de texto no arquivo .env e no campo 
-```sh 
-PEXELS_API_KEY=insira aqui
-```
-Insira sua key da pexels -> [Tutorial para conseguir sua API Key Pexels](https://help.pexels.com/hc/en-us/articles/900004904026-How-do-I-get-an-API-key) 
-Exemplo:
-```sh 
-PEXELS_API_KEY=jpnhyZ1fOitH8I1fOi769MyZ1fOitH8IFBxccsN5X0BnFhoUJBjSrWWv
-```
-Depois disso basta executar os proximos comandos
-```sh
-php artisan key:generate
-php artisan migrate
-php artisan serve
+$ cd git-info
+$ npm install ou yarn 
 ```
 
-Se tudo deu certo seu backend está rodando localmente aqui [http://localhost:8000](http://localhost:8000) 🥳🥳🥳
+Após digitar esses comando aguarde até que a instalação do pacote seja finalizada pode levar de 2 a 10 minutos dependendo da sua conexão.
+
+Após finalizar a instalação siga com os seguintes comandos.
+```sh
+$ npx prisma generate ou yarn prisma generate
+$ npx prisma db push ou yarn prisma db push
+$ npm run start ou yarn start 
+```
+
+Se tudo deu certo seu backend está rodando localmente aqui [http://localhost:3000](http://localhost:3000) 🥳🥳🥳
 
 **Obs: caso não estaja funcionando volte o tutorial do inicio e leia tudo novamente com atenção, se mesmo após reler o erro existir me contacte por email posso tentar te ajudar. Obrigado 😁😁😁**
 
