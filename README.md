@@ -43,6 +43,15 @@ Se tudo deu certo seu backend está rodando localmente aqui [http://localhost:30
 
 **Email:** junior_qst@hotmail.com
 
+**Endpoints**
+Existem um total de 3 endpoint
+
+```sh
+# /user/:login -> usado para verificar se um usario existe no github e copia para a base de dados os dados do usuario e seus repositórios
+# /user/list/:login -> lista todos os repositorios de um usuario salvo na base de dados
+# /user/search/:busca -> utilizado para buscar em repositorios salvaos na base de dados
+```
+
 Com tudo isso finalizo a entrega do projeto, agradeço a todos pela oportunidade e tempo disponibilizado. 
 
  [NPM Node Package Manager]: <https://nodejs.org/en>
