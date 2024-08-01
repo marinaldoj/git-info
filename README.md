@@ -2,72 +2,49 @@
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
 </p>
 
-[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
-[circleci-url]: https://circleci.com/gh/nestjs/nest
+# Git INFO
+Olá! ✋🙋‍♂️ Sejam bem vindos(as), ao **Git INFO**, uma aplicação de consulta aos dados de um usuário do GitHub, essa aplicação foi desenvolvida para um teste de código, fique a vontade para clonar e usar como bem entender.
 
-  <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
-    <p align="center">
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/dm/@nestjs/common.svg" alt="NPM Downloads" /></a>
-<a href="https://circleci.com/gh/nestjs/nest" target="_blank"><img src="https://img.shields.io/circleci/build/github/nestjs/nest/master" alt="CircleCI" /></a>
-<a href="https://coveralls.io/github/nestjs/nest?branch=master" target="_blank"><img src="https://coveralls.io/repos/github/nestjs/nest/badge.svg?branch=master#9" alt="Coverage" /></a>
-<a href="https://discord.gg/G7Qnnhy" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
-<a href="https://opencollective.com/nest#backer" target="_blank"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
-<a href="https://opencollective.com/nest#sponsor" target="_blank"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
-  <a href="https://paypal.me/kamilmysliwiec" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg"/></a>
-    <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
-  <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow"></a>
-</p>
-  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
-  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
+# Requisitos para instalação
+- [NPM Node Package Manager] - Usado para instalar as dependencias em JS.
+- [GIT] - Controle de versão e histórico de código.
+**Extras**
+- [Yarn] - Usado para instalar as dependencias em JS.
 
-## Description
+# Intruções para instalação e execução
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+Existe diversas formas para executar esse projeto porem nesse passo a passo vou ensinar a executar o projeto localmente como um ambiente de desenvolvimento.
 
-## Installation
+Primeiro abra o terminal para executar os codigos a seguir.
 
-```bash
-$ yarn install
+**Criando a pasta do projeto.**
+```sh
+$ git clone https://github.com/marinaldoj/git-info.git
 ```
 
-## Running the app
-
-```bash
-# development
-$ yarn run start
-
-# watch mode
-$ yarn run start:dev
-
-# production mode
-$ yarn run start:prod
+**Backend**
+```sh
+$ cd git-info
+$ npm install ou yarn 
 ```
 
-## Test
+Após digitar esses comando aguarde até que a instalação do pacote seja finalizada pode levar de 2 a 10 minutos dependendo da sua conexão.
 
-```bash
-# unit tests
-$ yarn run test
-
-# e2e tests
-$ yarn run test:e2e
-
-# test coverage
-$ yarn run test:cov
+Após finalizar a instalação siga com os seguintes comandos.
+```sh
+$ npx prisma generate ou yarn prisma generate
+$ npx prisma db push ou yarn prisma db push
+$ npm run start ou yarn start 
 ```
 
-## Support
+Se tudo deu certo seu backend está rodando localmente aqui [http://localhost:3000](http://localhost:3000) 🥳🥳🥳
 
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
+**Obs: caso não estaja funcionando volte o tutorial do inicio e leia tudo novamente com atenção, se mesmo após reler o erro existir me contacte por email posso tentar te ajudar. Obrigado 😁😁😁**
 
-## Stay in touch
+**Email:** junior_qst@hotmail.com
 
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
+Com tudo isso finalizo a entrega do projeto, agradeço a todos pela oportunidade e tempo disponibilizado. 
 
-## License
-
-Nest is [MIT licensed](LICENSE).
+ [NPM Node Package Manager]: <https://nodejs.org/en>
+ [Yarn]: <https://classic.yarnpkg.com/lang/en/docs/install/#windows-stable>
+ [GIT]: <https://git-scm.com/>
